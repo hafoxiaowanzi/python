@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+
+        {
+            "name": "Python: tensorflowdeamo",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\tensorflowdeamo\\test.py",
+            "args": [""],
+            "console": "integratedTerminal"
+        }
+
+        {
+            "name": "Python: 人脸识别-facetrain",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\facerecognition\\face_train.py",
+            "args": ["1"],
+            "console": "integratedTerminal"
+        }
+        ,
+        {
+            "name": "Python: 人脸识别",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\facerecognition\\Face_recognition.py",
+            "args": ["1"],
+            "console": "integratedTerminal"
+        }
+        ,
+        {
+            "name": "Python: 人脸识别-cameravideo",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}\\facerecognition\\cameravideo.py",
+            "args": ["1"],
+            "console": "integratedTerminal"
+        }
+
+    ]
+}
